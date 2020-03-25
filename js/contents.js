@@ -14,7 +14,7 @@ const contents = {
         label : '시즌 컨텐츠 편',
         contents : [
             {seqno:2156926, category: 'update', title: '[MAX의 알림] 3/26 점검전까지 해야할 일 (일부 수정) ', author: 'CYTOMAX', summary: 'null', registered: '2020.03.24.'},
-            {seqno:2157473, category: 'update', title: '[NightD]업데이트 내용 요약 정리(2020.02.26) ', author: 'NightD', summary: 'null', registered: '18:03'},
+            {seqno:2157473, category: 'update', title: '[NightD]업데이트 내용 요약 정리(2020.02.26) ', author: 'NightD', summary: 'null', registered: '2020.03.25.'},
             {seqno:2041539, category: 'raids', title: '[레이드 처음인 뉴비 필독!] 라그나 기본 매너 ', author: 'Averuncus', summary: 'null', registered: '2019.10.27.'},
             {seqno:2156864, category: 'raids', title: '데린이를 위한 간단 레이드 구성 ', author: '필승', summary: 'null', registered: '2020.03.24.'},
             {seqno:2156519, category: 'raids', title: '라그나 브레이크 컨텐츠 대비하기? ', author: '타각', summary: 'null', registered: '2020.03.23.'},
