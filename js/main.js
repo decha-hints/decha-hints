@@ -26,7 +26,7 @@ const writeData = function() {
         for (let i in elements) {
             const element = elements[i];
             // liElements.push("<li onclick='goTo(" + element.seqno + ")'>[" + element.category + "] " + element.summary + "(" + element.title + " by." + element.author+ ") - " + element.registered + "</li>")
-            liElements.push("<li><span onclick='goTo(" + element.seqno + ")'>[" + element.category + "] " + element.title + " - by." + element.author+ " - " + element.registered + "</span></li>")
+            liElements.push("<li><span onclick='goTo(" + element.seqno + ")'>[" + categories[element.category].label + "] " + element.title + " - by." + element.author+ " - " + element.registered + "</span></li>")
         }
 
         ulElement.innerHTML = liElements.join("");
