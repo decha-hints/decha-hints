@@ -43,13 +43,13 @@ const contents = {
             {seqno:2149971, category: 'child', title: '[차일드 선택박스] 2019 차일드 추천 공략 (재업) (feat. 노젓) ', author: '데이에', summary: 'null', registered: '2020.03.13.'},
             {seqno:2145557, category: 'system', title: '공격형 차일드의 공격력 순위를 조절하는 이유 ', author: '타각', summary: 'null', registered: '2020.03.09.'},
             {seqno:2134500, category: 'tip', title: '제 크리스탈 사용 방법 공유합니다 ', author: '피부미남되자', summary: 'null', registered: '2020.02.21.'},
+            {seqno:2142750, category: 'ignition', title: '이그니션 시스템(코어,증폭) - 헤파이스토스의 대장간 안내 - ', author: '러블리악마 혁', summary: 'null', registered: '2020.03.04.'},
             {seqno:2152215, category: 'ignition', title: '단어배치로 보는 코어 구분법 ', author: '옆집이브누나', summary: 'null', registered: '2020.03.15.'},
         ],
     },
     dechungnyun: {
         label : '데청년 편',
         contents : [
-            {seqno:2142750, category: 'ignition', title: '이그니션 시스템(코어,증폭) - 헤파이스토스의 대장간 안내 - ', author: '러블리악마 혁', summary: 'null', registered: '2020.03.04.'},
             {seqno:2064099, category: 'pvp', title: '고인물 컨텐츠 듀얼을 해보자 -증폭 후 변경점- (19.12.05 수정) ', author: '짭블루', summary: 'null', registered: '2019.11.18.'},
             {seqno:2137987, category: 'system', title: '골상에서 스테미너는 평균적으로 얼마나 나올까?(소소한 팁) ', author: '닉할찐', summary: 'null', registered: '2020.02.26.'},
             {seqno:2143329, category: 'system', title: '1턴은 몇 초일까? 차일드 오토 스킬 설정은? ', author: 'alphagu', summary: 'null', registered: '2020.03.05.'},
