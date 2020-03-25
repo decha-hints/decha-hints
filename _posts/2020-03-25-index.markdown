@@ -4,8 +4,8 @@ title:  "베스트 공략/팁 모음집"
 date:   2020-03-25 15:29:30 +0900
 categories: tips
 ---
-요니가 일을 안한다. 어쩔 수 없이 베스트 공략/팁 페이지를 만들었다.
+요니가 일을 안한다.~~(요니왈. 답답하면 니들이 뛰던가)~~ 그래서 베스트 공략/팁 페이지를 만들었다.
 카페에 베스트 공략/팁 게시판이 생기는 날 까지 업데이트될 예정이다.
 
-<img src="../images/derini.png"/>
-<img src="../../images/dejungja.png"/>
+<img src="../../../../images/derini.png"/>
+<img src="../../../../images/dejungja.png"/>
