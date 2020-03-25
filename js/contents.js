@@ -66,6 +66,4 @@ const contents = {
 }
 /**
  {seqno:123, category: 'ㅁㅇㄹ', title: 'ㅁㅇㄹ ', author: 'ㅁㅇㄹ', summary: 'null', registered: '2020.03.16.'}
- {seqno:123, category: 'ㅁㅇㄹ', title: 'ㅁㅇㄹ ', author: 'ㅁㅇㄹ', summary: 'null', registered: '2020.03.16.'}
- {seqno:123, category: 'ㅁㅇㄹ', title: 'ㅁㅇㄹ ', author: 'ㅁㅇㄹ', summary: 'null', registered: '2020.03.16.'}
  **/
