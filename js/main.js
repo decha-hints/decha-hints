@@ -7,7 +7,7 @@ let sheet = null;
 const head = document.head || document.getElementsByTagName('head')[0];
 const contentsBody = document.getElementById("contentsBody");
 
-const writeDataByLevel = function(contents) {
+const writeData = function(contents) {
 
     if (sheet != null) head.removeChild(sheet);
 
@@ -20,6 +20,7 @@ const writeDataByLevel = function(contents) {
     for (let i in classified) {
 
         const keyword = classified[i];
+        if (keyword == 'isFirst') continue;
 
         const sheet_str = "h2." + keyword + " { background: url('images/" + keyword + ".png') no-repeat;" +
             "    background-size: contain;" +
@@ -50,25 +51,31 @@ const writeDataByLevel = function(contents) {
 
     contentsBody.innerHTML = contentsBodyElements.join('');
 
-}
-writeDataByLevel(contents);
+};
 
-let isFirst = true;
-const writeDataByCategory = function() {
+const writeDataByLevel = function() {
 
-    if (isFirst === true) {
-        isFirst = false;
-        const classified = Object.keys(contents);
-        for (let i in classified) {
-            const keyword = classified[i];
-            const contentsByLevel = contents[keyword].contents;
-            for (let i in contentsByLevel) {
-                const content = contentsByLevel[i];
-                categories[content.category].contents.push(content);
-            }
+    if (levels.isFirst === true) {
+        levels.isFirst = false;
+        for (let i in contents) {
+            const content = contents[i];
+            levels[content.level].contents.push(content);
         }
     }
 
-    writeDataByLevel(categories);
+    writeData(levels);
+};
+writeDataByLevel();
 
-}
+const writeDataByCategory = function() {
+
+    if (categories.isFirst === true) {
+        categories.isFirst = false;
+        for (let i in contents) {
+            const content = contents[i];
+            categories[content.category].contents.push(content);
+        }
+    }
+
+    writeData(categories);
+};
