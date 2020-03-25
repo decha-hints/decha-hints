@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>데차 베스트 공략&팁</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
@@ -14,48 +15,63 @@
         </div>
     </section>
 
-    <section class="forSeason">
-        <div class="title">
-            <h2 class="season"> 시즌 컨텐츠 편</h2>
-        </div>
-        <div class="content">
-            <ul id="season_content_li">
-
-            </ul>
-        </div>
+    <section class="buttons">
+        <ul>
+            <li>
+                <span onclick="writeDataByLevel(contents)">성장별로 나눠보기</span>
+            </li>
+            <li>
+                <span onclick="writeDataByCategory()">컨텐츠별로 나눠보기</span>
+            </li>
+        </ul>
     </section>
 
-    <section class="forDejungja">
-        <div class="title">
-            <h2 class="dejungja">데정자 편</h2>
-        </div>
-        <div class="content">
-            <ul id="dejungja_content_li">
+    <section id="contentsBody">
+        <!--
+        <section class="forSeason">
+            <div class="title">
+                <h2 class="season"> 시즌 컨텐츠 편</h2>
+            </div>
+            <div class="content">
+                <ul id="season_content_li">
 
-            </ul>
-        </div>
-    </section>
+                </ul>
+            </div>
+        </section>
 
-    <section class="forDerini">
-        <div class="title">
-            <h2 class="derini">데리니 편</h2>
-        </div>
-        <div class="content">
-            <ul id="derini_content_li">
+        <section class="forDejungja">
+            <div class="title">
+                <h2 class="dejungja">데정자 편</h2>
+            </div>
+            <div class="content">
+                <ul id="dejungja_content_li">
 
-            </ul>
-        </div>
-    </section>
+                </ul>
+            </div>
+        </section>
 
-    <section class="forDechungnyun">
-        <div class="title">
-            <h2 class="dechungnyun">데청년 편</h2>
-        </div>
-        <div class="content">
-            <ul id="dechungnyun_content_li">
+        <section class="forDerini">
+            <div class="title">
+                <h2 class="derini">데리니 편</h2>
+            </div>
+            <div class="content">
+                <ul id="derini_content_li">
 
-            </ul>
-        </div>
+                </ul>
+            </div>
+        </section>
+
+        <section class="forDechungnyun">
+            <div class="title">
+                <h2 class="dechungnyun">데청년 편</h2>
+            </div>
+            <div class="content">
+                <ul id="dechungnyun_content_li">
+
+                </ul>
+            </div>
+        </section>
+        -->
     </section>
     <script src="js/contents.js"></script>
     <script src="js/main.js"></script>
