@@ -27,6 +27,7 @@ const contents = [
     {seqno:2152744, level:'season', category: 'raids', title: '[레이드 대비] 암속 레이드 대비 (3/26~) ', author: '데이에', summary: 'null', registered: '2020.03.16.'},
     {seqno:2151591, level:'dejungja', category: 'guideline', title: '신규 유저인데 어떻게 하면 좋을까요? ', author: '타각', summary: 'null', registered: '2020.03.15.'},
     {seqno:1552371, level:'dejungja', category: 'guideline', title: '데스티니 차일드가 처음인데, 무엇을 해야 할까요? (2018년 1월 3일 업데이트 반영) ', author: '마리이', summary: 'null', registered: '2018.01.03.'},
+    {seqno:2095634, level:'derini', category: 'raids', title: '[NightD]데린이들을 위한 레이드 최소 데미지 1% 숟딜에 관한 내용', author: 'NightD', summary: 'null', registered: '2019.12.29.'},
     {seqno:2069846, level:'derini', category: 'system', title: '차일드 어딨는지 모르겠다 할 때(미세 tip) ', author: '하얀치즈', summary: 'null', registered: '2019.11.25.'},
     {seqno:2109196, level:'derini', category: 'child', title: '[차일드]★차일드 등급표(티어표) Ver 1.61 Date: 20200114', author: 'FD3SVI', summary: 'null', registered: '2020.01.13.'},
     {seqno:1793920, level:'derini', category: 'item', title: '장비 히든 포함 종합스탯', author: '2웨딩없찐 란지', summary: 'null', registered: '2020.03.14.'},
@@ -50,5 +51,5 @@ const contents = [
     {seqno:2150642, level:'dechungnyun', category: 'ignition', title: '증공은 과연 공순위에 영향을 줄까? ', author: '이뿐꺼니', summary: 'null', registered: '2020.03.14.'},
 ]
 /**
- {seqno:123, category: 'ㅁㅇㄹ', title: 'ㅁㅇㄹ ', author: 'ㅁㅇㄹ', summary: 'null', registered: '2020.03.16.'}
+ {seqno:123, level:'dechungnyun', category: 'ㅁㅇㄹ', title: 'ㅁㅇㄹ ', author: 'ㅁㅇㄹ', summary: 'null', registered: '2020.03.16.'}
  **/
