@@ -19,12 +19,10 @@ const levels = {
 }
 
 const contents = [
-    {seqno:2156926, level:'season', category: 'update', title: '[MAX의 알림] 3/26 점검전까지 해야할 일 (일부 수정) ', author: 'CYTOMAX', summary: 'null', registered: '2020.03.24.'},
-    {seqno:2157473, level:'season', category: 'update', title: '[NightD]업데이트 내용 요약 정리(2020.02.26) ', author: 'NightD', summary: 'null', registered: '2020.03.25.'},
-    {seqno:2041539, level:'season', category: 'raids', title: '[레이드 처음인 뉴비 필독!] 라그나 기본 매너 ', author: 'Averuncus', summary: 'null', registered: '2019.10.27.'},
-    {seqno:2156864, level:'season', category: 'raids', title: '데린이를 위한 간단 레이드 구성 ', author: '필승', summary: 'null', registered: '2020.03.24.'},
-    {seqno:2156519, level:'season', category: 'raids', title: '라그나 브레이크 컨텐츠 대비하기? ', author: '타각', summary: 'null', registered: '2020.03.23.'},
-    {seqno:2152744, level:'season', category: 'raids', title: '[레이드 대비] 암속 레이드 대비 (3/26~) ', author: '데이에', summary: 'null', registered: '2020.03.16.'},
+    {seqno:2165371, level:'season', category: 'update', title: '[MAX의 알림] 4/9 점검전까지 해야할 일', author: 'CYTOMAX', summary: 'null', registered: '2020.04.06.'},
+    {seqno:2041539, level:'derini', category: 'raids', title: '[레이드 처음인 뉴비 필독!] 라그나 기본 매너 ', author: 'Averuncus', summary: 'null', registered: '2019.10.27.'},
+    {seqno:2156864, level:'derini', category: 'raids', title: '데린이를 위한 간단 레이드 구성 ', author: '필승', summary: 'null', registered: '2020.03.24.'},
+    {seqno:2156519, level:'derini', category: 'raids', title: '라그나 브레이크 컨텐츠 대비하기? ', author: '타각', summary: 'null', registered: '2020.03.23.'},
     {seqno:2151591, level:'dejungja', category: 'guideline', title: '신규 유저인데 어떻게 하면 좋을까요? ', author: '타각', summary: 'null', registered: '2020.03.15.'},
     {seqno:1552371, level:'dejungja', category: 'guideline', title: '데스티니 차일드가 처음인데, 무엇을 해야 할까요? (2018년 1월 3일 업데이트 반영) ', author: '마리이', summary: 'null', registered: '2018.01.03.'},
     {seqno:2095634, level:'derini', category: 'raids', title: '[NightD]데린이들을 위한 레이드 최소 데미지 1% 숟딜에 관한 내용', author: 'NightD', summary: 'null', registered: '2019.12.29.'},
@@ -51,5 +49,6 @@ const contents = [
     {seqno:2150642, level:'dechungnyun', category: 'ignition', title: '증공은 과연 공순위에 영향을 줄까? ', author: '이뿐꺼니', summary: 'null', registered: '2020.03.14.'},
 ]
 /**
+{seqno:2157473, level:'season', category: 'update', title: '[NightD]업데이트 내용 요약 정리(2020.02.26) ', author: 'NightD', summary: 'null', registered: '2020.03.25.'},
  {seqno:123, level:'dechungnyun', category: 'ㅁㅇㄹ', title: 'ㅁㅇㄹ ', author: 'ㅁㅇㄹ', summary: 'null', registered: '2020.03.16.'}
  **/
